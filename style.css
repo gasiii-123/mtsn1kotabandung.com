@@ -1077,3 +1077,74 @@ footer {
 .no-scroll {
     overflow: hidden;
 }
+
+@media (max-width: 768px) {
+    header, nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .banner-content,
+    .banner-slider {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner-content h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .banner-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .features {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .feature {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .sambutan-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sambutan-content .text,
+    .kepsek-photo {
+        width: 100%;
+    }
+
+    .kepsek-photo {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .banner-slider img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
