@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTs Negeri 1 Kota Bandung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="beranda.html" style="text-decoration: none; color: inherit;">
+                <div class="logo">
+                    <img src="gambar/logo-mtsn-1-kota-bandung.png" alt="Logo Sekolah">
+                    <h1>MTs Negeri 1 Kota Bandung</h1>
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="beranda.html">Beranda</a></li>
+                <li><strong>Profil ▼</strong>
+                    <ul class="submenu">
+                        <li><a href="profil.html">Profil Sekolah</a></li>
+                        <li><a href="visi.html">Visi Sekolah</a></li>
+                        <li><a href="misi.html">Misi Sekolah</a></li>
+                    </ul>
+                <li><strong>Akademik ▼</strong>
+                    <ul class="submenu">
+                        <li><a href="mapel.html">Mata Pelajaran</a></li>
+                        <li><a href="osisekskul.html">OSIS & Ekstrakurikuler</a></li>
+                        <li><a href="prestasi.html">Prestasi</a></li>
+                    </ul>
+                <li><a href="ppdbm.html">PPDBM</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h2>Selamat Datang</h2>
+                <div class="banner-buttons">
+                    <button class="btn" id="readMoreBtn">Selengkapnya</button>
+                    <button class="video-btn" onclick="openVideo()">
+                        <span>▶</span> Watch Video
+                    </button>
+                </div>
+            </div>
+            <div class="banner-slider">
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <img id="bannerImage" src="gambar/foto mts1.jpg" alt="foto mts1">
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+                <div class="dots-container"></div>
+            </div>
+        </section>
+        <div class="motto">
+            <h2>MOTTO MTs Negeri 1 Kota Bandung</h2>
+        </div>
+        <section class="features">
+            <div class="feature">
+                <img src="gambar/winner_icon.png" alt="Jujur">
+                <h3>Jujur</h3>
+                <p>Mencerminkan nilai dasar kejujuran dan integritas yang ditanamkan kepada seluruh warga madrasah dalam
+                    aspek kehidupan sehari-hari.</p>
+            </div>
+            <div class="feature">
+                <img src="gambar/excellent_icon.png" alt="Unggul">
+                <h3>Unggul</h3>
+                <p>Mencerminkan komitmen sekolah dalam mencetak generasi yang berkualitas unggul dalam akademik,
+                    karakter, dan spiritual.</p>
+            </div>
+            <div class="feature">
+                <img src="gambar/active_icon.png" alt="Aktif">
+                <h3>Aktif</h3>
+                <p>Mencerminkan komitmen madrasah dalam menciptakan lingkungan pembelajaran yang dinamis dan produktif.
+                </p>
+            </div>
+            <div class="feature">
+                <img src="gambar/work_icon.png" alt="Ramah">
+                <h3>Ramah</h3>
+                <p>Mencerminkan lingkungan madrasah yang santun, penuh rasa kekeluargaan, dan menjunjung tinggi
+                    nilai-nilai kesopanan.</p>
+            </div>
+            <div class="feature">
+                <img src="gambar/muslim_icon.png" alt="Agamis">
+                <h3>Agamis</h3>
+                <p>Mencerminkan komitmen sekolah dalam menanamkan nilai-nilai keislaman kepada seluruh warga madrasah.
+                </p>
+            </div>
+        </section>
+        <section class="sambutan-kepsek" id="sambutan">
+            <div class="container">
+                <div class="sambutan-content">
+                    <div class="text">
+                        <h4>Selamat Datang Di Website MTs Negeri 1 Kota Bandung</h4><br>
+                        <h2>Sambutan Kepala Madrasah</h2>
+                        <p><strong>Bismillahirrahmanirrahim, Assalamualaikum wr.wb.</strong></p>
+                        <p>Dengan penuh rasa syukur kepada Allah SWT, saya dengan bangga menghadirkan sambutan ini dalam
+                            rangka peluncuran website madrasah. Di era digital saat ini, tidak dapat dipungkiri betapa
+                            pentingnya keberadaan sebuah situs web bagi sebuah lembaga pendidikan. Situs web bukan hanya
+                            menjadi wadah untuk menyebarkan informasi, tetapi juga merupakan alat promosi yang efektif
+                            bagi sekolah.</p><br>
+                        <p>Dalam konteks ini, website madrasah menjadi saluran utama untuk menyebarkan informasi tentang
+                            berbagai kegiatan positif yang dilakukan oleh madrasah. Dengan gambar-gambar yang relevan,
+                            prestasi-prestasi yang telah diraih oleh MTs Negeri 1 Kota Bandung dapat diperlihatkan
+                            kepada masyarakat luas. Selain itu, situs web juga dapat menjadi sumber belajar yang
+                            bermanfaat dengan menyediakan artikel dan materi pembelajaran bagi siswa.</p><br>
+                        <p>Website juga berperan sebagai media komunikasi antara madrasah dan masyarakat. Melalui situs
+                            web ini, masyarakat dapat berinteraksi dengan madrasah, mengakses informasi terkini, dan
+                            membentuk pemahaman yang lebih baik tentang profil MTs Negeri 1 Kota Tasikmalaya. Profil
+                            yang baik akan menjadi modal penting dalam memperkuat citra dan reputasi madrasah.</p><br>
+                        <p>Semoga situs web ini dapat menjadi sarana yang efektif dalam mencapai tujuan-tujuan
+                            pendidikan yang kita inginkan. Terima kasih atas perhatian dan dukungan dari semua pihak.
+                        </p>
+                        <p><strong>Wassalamualaikum wr. wb.</strong></p>
+                    </div>
+                    <div class="kepsek-photo">
+                        <img src="gambar/kepsek.png" alt="Kepala Madrasah">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>Madrasah Tsanawiyah Negeri 1 Kota Bandung</p><br>
+                <p>Jl. Terusan Holis Babakan Ciparay Bandung, Margahayu Utara, Kec. Babakan Ciparay, Kota Bandung, Jawa
+                    Barat</p><br>
+                <p>Kontak: admin@mtsn1kotabandung.sch.id</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2025 by Web Development</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1AKv7dTnfX/" target="_blank" rel="noopener noreferrer"><img
+                            src="gambar/facebook_icon.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/mtsn1kotabdg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank" rel="noopener noreferrer"><img src="gambar/instagram_icon.png"
+                            alt="Instagram"></a>
+                    <a href="https://youtube.com/@officialmtsnegeri1kotabandung?feature=shared" target="_blank"
+                        rel="noopener noreferrer"><img src="gambar/youtube_icon.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div id="videoLightbox" class="lightbox">
+                <span class="close" onclick="closeVideo()">&times;</span>
+                <div class="video-container">
+                    <iframe id="videoFrame" width="560" height="315" src="" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
